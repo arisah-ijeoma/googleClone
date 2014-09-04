@@ -62,6 +62,7 @@ body{
 	margin: 10px -10px 0 0; 
 	overflow: hidden;
 	font-family: tahoma, arial, sans-serif;
+<<<<<<< HEAD
 	background-image: url('square.png'); /*no click; no hover property*/
 	background-repeat: no-repeat;
 	background-position: 1190px 27px;
@@ -86,6 +87,32 @@ div.space{
 }
 
 
+=======
+}
+
+div.surround {
+	width: 100%;
+	display: -webkit-flex;
+}
+
+div.space{
+	display: -webkit-flex;
+	-webkit-justify-content: flex-end;
+	height: 35px;
+	width: 100%;
+	/*position: absolute;
+	left: 75%;
+	top: 7px;*/
+	padding-top: 2px;
+	font-size: 0.9em;
+	padding-right: 5%;
+}
+
+div#square {
+	position: relative;
+	top: -18%;
+}
+>>>>>>> master
 
 div.size {
 	padding: 10px;
@@ -103,13 +130,18 @@ div.size a:hover {
 }
 
 input.signin {
+<<<<<<< HEAD
 	width: 70px;
+=======
+	width: 100px;
+>>>>>>> master
 	padding: 7px 10px;
 	border-radius: 2px;
 	background-color: #4285f4;
 	border-width: 0;
 	font-size: 94%;
 	color: white;
+<<<<<<< HEAD
 	position: absolute;
 	left: 930px;
 	top: -4px;
@@ -117,6 +149,15 @@ input.signin {
 
 input.signin:hover {
 	padding-bottom: 8px;
+=======
+	/*position: absolute;*/
+	/*left: 930px;
+	top: -4px;*/
+}
+
+input.signin:hover {
+	box-shadow: 0 5px;
+>>>>>>> master
 	transition: .1s;
 }
 
@@ -125,12 +166,21 @@ input[value= "Sign in"] {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+/*img.square {
+	height: 5px;
+	width: 5px;
+}*/
+
+>>>>>>> master
 
 
 /************************************
 		        MAIN
 ************************************/
 
+<<<<<<< HEAD
 img {
 	height: 95px;
 	width: 269px;
@@ -142,10 +192,29 @@ input.field {
 	width: 180%;
 	padding: 6px;
 	margin-left: -150px;
+=======
+img.logo {
+	width: 200px;
+	/*background-position: 50% 50%;*/
+	cursor: auto;
+	background-position: center;
+}
+
+input.field {
+	display: block;
+	width: 70%;
+	padding: 6px;
+>>>>>>> master
 	border: 1px solid #cccccc;
 	background-image: url('mic.png');
 	background-repeat: no-repeat;
 	background-position: 100%;
+<<<<<<< HEAD
+=======
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+>>>>>>> master
 }
 
 input.field:hover{
@@ -157,6 +226,7 @@ input.field:focus {
 }
 
 section.main {
+<<<<<<< HEAD
 	position: absolute;
 	top: 180px;
 	left: 520px;
@@ -174,6 +244,28 @@ p.button {
 
 input.resize {
 	display:-webkit-flex;
+=======
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 11%;
+}
+
+p.button {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	padding: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 250px;
+	position: relative;
+	text-align: center;
+}
+
+input.resize {
+	display: -webkit-flex;
+>>>>>>> master
 	padding: 7px 10px;
 	border-radius: 2px;
 	border: 1px solid #cccccc;
@@ -181,6 +273,7 @@ input.resize {
 	color: #333333;
 }
 
+<<<<<<< HEAD
 input[value= "Google Search"] {
 	font-family: tahoma, arial, sans-serif;
 }
@@ -189,6 +282,17 @@ input[value= "I'm Feeling Lucky"] {
 	font-family: tahoma, arial, sans-serif;
 }
 
+=======
+input.resize:hover {
+	box-shadow: 0px 1px 1px #cccccc;
+}
+
+input[class= "resize"] {
+	font-family: tahoma, arial, sans-serif;
+}
+
+
+>>>>>>> master
 /************************************
 		        FOOTER
 ************************************/
@@ -234,8 +338,78 @@ div.left ul li {
 	display: inline-block;
 	padding: 10px;
 }
+<<<<<<< HEAD
 	@media screen and (max-width: 950px) {
 		div.right {
 			display: none;
 		}
 	}
+=======
+
+@media screen and (max-width: 600px) {
+	p.button {
+		width: 250px;
+	}
+
+	section.main {
+		margin-top: 30%;
+	}
+
+	input.field {
+		width: 300px;
+	}
+
+	div.right {
+		display: block;
+		width: 270px;
+		float: right;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	div.right ul li {
+		font-size: 0.65em;
+		padding-left: ;
+	}
+
+	div.left {
+		display: block;
+		width: 180px;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	div.left ul li {
+		font-size: 0.65em;
+		float: left;
+	}
+}
+@media screen and (max-width: 450px) {
+	
+	div.footer {
+		border: none;
+		position: relative;
+		background-color: #fff;
+		padding-top: 50px;
+	}
+
+	div.left {
+		display: block;
+	}
+
+	div.footer ul li {
+		padding: 3px;
+		margin-top: 10px;
+	}
+
+	div.right {
+		display: block;
+		float: left;
+		margin-top: 5%;
+	}
+
+	
+}
+
+
+>>>>>>> master
