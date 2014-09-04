@@ -62,32 +62,7 @@ body{
 	margin: 10px -10px 0 0; 
 	overflow: hidden;
 	font-family: tahoma, arial, sans-serif;
-<<<<<<< HEAD
-	background-image: url('square.png'); /*no click; no hover property*/
-	background-repeat: no-repeat;
-	background-position: 1190px 27px;
-}
 
-header.nav {
-	width: 100%;
-	display: inline-block;
-	position: relative;
-	left: 300px;
-	color: #333333;
-}
-
-div.space{
-	height: 25px;
-	width: 270px;
-	position: absolute;
-	left: 710px;
-	top: 7px;
-	padding-top: 2px;
-	font-size: 0.9em;
-}
-
-
-=======
 }
 
 div.surround {
@@ -112,7 +87,7 @@ div#square {
 	position: relative;
 	top: -18%;
 }
->>>>>>> master
+
 
 div.size {
 	padding: 10px;
@@ -130,26 +105,16 @@ div.size a:hover {
 }
 
 input.signin {
-<<<<<<< HEAD
-	width: 70px;
-=======
+
 	width: 100px;
->>>>>>> master
+
 	padding: 7px 10px;
 	border-radius: 2px;
 	background-color: #4285f4;
 	border-width: 0;
 	font-size: 94%;
 	color: white;
-<<<<<<< HEAD
-	position: absolute;
-	left: 930px;
-	top: -4px;
-}
 
-input.signin:hover {
-	padding-bottom: 8px;
-=======
 	/*position: absolute;*/
 	/*left: 930px;
 	top: -4px;*/
@@ -157,7 +122,7 @@ input.signin:hover {
 
 input.signin:hover {
 	box-shadow: 0 5px;
->>>>>>> master
+
 	transition: .1s;
 }
 
@@ -166,33 +131,17 @@ input[value= "Sign in"] {
 	font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
 /*img.square {
 	height: 5px;
 	width: 5px;
 }*/
 
->>>>>>> master
 
 
 /************************************
 		        MAIN
 ************************************/
 
-<<<<<<< HEAD
-img {
-	height: 95px;
-	width: 269px;
-	padding: 20px;
-	cursor: auto;
-}
-
-input.field {
-	width: 180%;
-	padding: 6px;
-	margin-left: -150px;
-=======
 img.logo {
 	width: 200px;
 	/*background-position: 50% 50%;*/
@@ -204,17 +153,16 @@ input.field {
 	display: block;
 	width: 70%;
 	padding: 6px;
->>>>>>> master
+
 	border: 1px solid #cccccc;
 	background-image: url('mic.png');
 	background-repeat: no-repeat;
 	background-position: 100%;
-<<<<<<< HEAD
-=======
+
 	margin-top: 2%;
 	margin-left: auto;
 	margin-right: auto;
->>>>>>> master
+
 }
 
 input.field:hover{
@@ -226,25 +174,7 @@ input.field:focus {
 }
 
 section.main {
-<<<<<<< HEAD
-	position: absolute;
-	top: 180px;
-	left: 520px;
-}
 
-p.button {
-	padding: 1px;
-	margin-top: 11px;
-	display: -webkit-flex;
-	-webkit-justify-content: space-between;
-	width: 74%;
-	position: absolute;
-	left: 40px;
-}
-
-input.resize {
-	display:-webkit-flex;
-=======
 	position: relative;
 	width: 70%;
 	margin: 0 auto;
@@ -265,7 +195,7 @@ p.button {
 
 input.resize {
 	display: -webkit-flex;
->>>>>>> master
+
 	padding: 7px 10px;
 	border-radius: 2px;
 	border: 1px solid #cccccc;
@@ -273,16 +203,7 @@ input.resize {
 	color: #333333;
 }
 
-<<<<<<< HEAD
-input[value= "Google Search"] {
-	font-family: tahoma, arial, sans-serif;
-}
 
-input[value= "I'm Feeling Lucky"] {
-	font-family: tahoma, arial, sans-serif;
-}
-
-=======
 input.resize:hover {
 	box-shadow: 0px 1px 1px #cccccc;
 }
@@ -292,7 +213,6 @@ input[class= "resize"] {
 }
 
 
->>>>>>> master
 /************************************
 		        FOOTER
 ************************************/
@@ -338,13 +258,6 @@ div.left ul li {
 	display: inline-block;
 	padding: 10px;
 }
-<<<<<<< HEAD
-	@media screen and (max-width: 950px) {
-		div.right {
-			display: none;
-		}
-	}
-=======
 
 @media screen and (max-width: 600px) {
 	p.button {
@@ -410,6 +323,3 @@ div.left ul li {
 
 	
 }
-
-
->>>>>>> master
